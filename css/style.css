@@ -1,0 +1,29 @@
+/* nav bar */
+
+nav{
+    height: 70px;
+}
+
+/* fine nav bar */
+
+
+
+/* aside */
+
+aside{
+    width: 150px;
+    height: calc(100vh - 70px);  /* altezza totale della viewport - l'altezza della navbar */
+}
+
+/* fine aside */
+
+
+
+/* main */
+
+main{
+    width: calc(100vw - 150px);
+    height: calc(100vh - 70px);  /* altezza totale della viewport - l'altezza della navbar */
+}
+
+/* fine main */
