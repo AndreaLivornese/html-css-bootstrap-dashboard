@@ -5,6 +5,7 @@ nav{
     height: 70px;
 }
 
+
 /* fine nav bar */
 
 
@@ -12,8 +13,12 @@ nav{
 /* aside */
 
 aside{
+    background-color: #051e34;
+
     width: 150px;
     height: calc(100vh - 70px);  /* altezza totale della viewport - l'altezza della navbar */
+
+    background-image: url("../img/sidebar-bg.png");
 }
 
 /* fine aside */
