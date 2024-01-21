@@ -28,7 +28,7 @@ aside{
 /* main */
 
 main{
-    width: calc(100vw - 150px);
+    width: calc(100% - 150px);
     height: calc(100vh - 70px);  /* altezza totale della viewport - l'altezza della navbar */
 }
 
