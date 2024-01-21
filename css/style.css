@@ -37,6 +37,11 @@ main{
 header{
     height: 123px;
 }
+
+
+.my_w_breadcrum{
+    width: 90%;
+}
 /* fine main */
 
 
@@ -46,7 +51,7 @@ header{
 /* media query */
 
 
-
+/* tablet */
 @media screen and (max-width:991px) {
     
 /* aside */
@@ -68,4 +73,14 @@ header{
     height: 123px;
 }
 
+}
+
+
+
+@media screen and (max-width:767px) {
+
+header{
+    height: 263px;
+}
+    
 }

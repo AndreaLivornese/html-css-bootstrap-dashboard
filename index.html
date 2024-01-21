@@ -74,13 +74,59 @@
     
         <!-- main -->
     
-        <main class="bg-primary overflow-y-auto">
+        <main class="overflow-y-auto">
 
-            <header class="bg-secondary ">
-                <div class="row h-100 g-0 ">
-                    <div class="col-6">Breadcrumb</div>
-                    <div class="col-4">status</div>
-                    <div class="col-2">buovo studente</div>
+            <header class="bg-primary text-white px-3 pt-3 ">
+                <div class="row g-0 row-gap-3">
+                    <div class="col-lg-6 col-md-4 col-12">
+                        <div class="fs-3">
+                            Boolean
+                        </div>
+
+                        <div aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a class="text-decoration-none text-white" href="#">Home</a>
+                                </li>
+                                <li class="breadcrumb-item my_w_breadcrum">
+
+                                    <div aria-label="breadcrumb" style="--bs-breadcrumb-divider: '';">
+                                        <ol class="breadcrumb">
+                                            <li>
+                                                <li class="breadcrumb-item">
+                                                    <a class="text-decoration-none text-white" href="#">Boolean mobile app</a>
+                                                </li>
+                                                <li class="breadcrumb-item">
+                                                    <a class="text-decoration-none text-white" href="#">Boolean mobile app</a>
+                                                </li>
+                                                <li class="breadcrumb-item">
+                                                    <a class="text-decoration-none text-white" href="#">Boolean mobile app</a>
+                                                </li>
+                                            </li>
+                                        </ol>
+                                    </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div>
+                            Studenti online negli ultimi 30 minuti
+                        </div>
+
+                        <div class="fs-3">
+                            125
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-2 col-md-4 col-12 order-first order-md-last ">
+                        <label for="">
+                            Nuovo Studente
+                        </label>
+                        <button class="btn btn-outline-light">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
                 </div>
             </header>
 
