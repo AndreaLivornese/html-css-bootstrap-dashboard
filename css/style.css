@@ -33,3 +33,34 @@ header{
     height: 123px;
 }
 /* fine main */
+
+
+
+
+
+/* media query */
+
+
+
+@media screen and (max-width:991px) {
+    
+/* aside */
+
+aside{
+    width: 68px;
+}
+
+
+/* main */
+main{
+    width: calc(100vw - 68px);
+    height: calc(100vh - 70px);  /* altezza totale della viewport - l'altezza della navbar */
+}
+
+
+
+header{
+    height: 123px;
+}
+
+}
