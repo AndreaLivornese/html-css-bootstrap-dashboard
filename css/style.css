@@ -1,9 +1,17 @@
+
 /* nav bar */
 
 nav{
     width: 100vw;
     height: 70px;
 }
+
+#small-logo{
+    max-width: 38px;
+    max-height: auto;
+}
+
+
 
 
 /* fine nav bar */

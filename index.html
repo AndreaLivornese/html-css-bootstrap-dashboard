@@ -19,16 +19,21 @@
 
     <div class="d-flex flex-wrap">
         <!-- mav -->
-        <nav class="bg-black d-flex align-items-center justify-content-center text-white py-3">
-            <div class="col-12 row align-items-center g-0">
-                <div class="col-lg-2 col-1">
-                    <!-- loghi da fixare -->
-                    <!-- <img src="./img/logo.svg" class="d-none d-lg-inline img-fluid " alt="logo-lg-sito">
-                    <img src="./img/mobile-logo.png" class="d-lg-none my_img_h_fluid" alt="logo-sm-sito"> -->
-                    logo
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid bg-white p-1 g-0">
+                <a class=" col-1 p-0 h-100 d-flex justify-content-center align-items-center  ">
+                    <img src="./img/logo.svg" class="img-fluid d-none d-lg-inline-block " alt="">
+                    <img src="./img/mobile-logo.png" class="d-lg-none" id="small-logo" alt="">
+                </a>
+                <form class="d-flex col px-2" role="search">
+                    <input id="search" class="form-control me-2" type="search" placeholder="Prova a cercare: lezione di Laravel" aria-label="Search">
+                </form>
+                <div class="col-1 d-flex gap-3 ">
+                    <i class="fa-solid d-none d-lg-inline fa-list-ul"></i>
+                    <i class="fa-solid d-none d-lg-inline fa-circle-question"></i>
+                    <i class="fa-solid d-none d-lg-inline fa-ellipsis-vertical"></i>
+                    <i class="fa-solid text-warning fa-bell"></i>
                 </div>
-                <div class="col">search</div>
-                <div class="col-2">icon</div>
             </div>
         </nav>
     
