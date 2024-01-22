@@ -44,6 +44,26 @@ header{
 }
 
 
+.my_status{
+    padding:4px 4px;
+
+    font-size:10px;
+    color:white;
+}
+
+.done{
+    background-color: #198754;
+}
+
+.process{
+    background-color: #ffc107;
+}
+
+.failed{
+    background-color: #dc3545;
+}
+
+
 .my_border_checkbox{
     border: 1px solid rgba(0, 0, 0, .2);
 }
