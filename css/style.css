@@ -47,6 +47,8 @@ header{
 .my_status{
     padding:4px 4px;
 
+    text-align: center;
+
     font-size:10px;
     color:white;
 }
