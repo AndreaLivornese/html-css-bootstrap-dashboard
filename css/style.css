@@ -43,6 +43,25 @@ header{
     width: 90%;
 }
 
+.my_fs_breadcrum{
+    font-size: 12px;
+}
+
+
+.my_breadcrum_cover{
+    display: inline-block;
+
+    padding:4px 8px;
+
+    background-color: rgba(0, 0, 0, .3);
+
+    border-radius: 16px;
+}
+
+
+.my_lg_d-list_item{
+}
+
 
 .my_status{
     padding:4px 4px;
@@ -96,6 +115,15 @@ header{
 /* media query */
 
 
+
+@media screen and (min-width:992px) {
+    .my_lg_d-list_item{
+        display: list-item !important;
+    }
+}
+
+
+
 /* tablet */
 @media screen and (max-width:991px) {
     
@@ -116,6 +144,10 @@ main{
 
 header{
     height: 123px;
+}
+
+.my_w_breadcrum{
+    width: auto;
 }
 
 }
