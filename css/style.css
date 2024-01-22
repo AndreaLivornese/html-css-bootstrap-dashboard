@@ -42,6 +42,11 @@ header{
 .my_w_breadcrum{
     width: 90%;
 }
+
+
+.my_border_checkbox{
+    border: 1px solid rgba(0, 0, 0, .2);
+}
 /* fine main */
 
 
