@@ -47,6 +47,24 @@ header{
 .my_border_checkbox{
     border: 1px solid rgba(0, 0, 0, .2);
 }
+
+
+.my_faq_btn{
+    display: inline-block;
+    width: 100%;
+
+    padding:20px;
+
+    text-decoration: none;
+    color:black;
+}
+
+.my_collapse_faq_element{
+    width: 100%;
+
+    padding:20px;
+
+}
 /* fine main */
 
 
