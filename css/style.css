@@ -75,6 +75,10 @@ header{
     width: 60% !important;
 }
 
+.offcanvas-body label{
+    margin-bottom: 10px;
+}
+
 
 .my_status{
     padding:4px 4px;

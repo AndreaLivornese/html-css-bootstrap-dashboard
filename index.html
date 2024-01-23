@@ -140,14 +140,14 @@
                         <!-- offcanvas -->
                         <div class="offcanvas offcanvas-end my_affcanvas-w" tabindex="-1" id="offcanvasForm" aria-labelledby="offcanvasFormLabel">
                             <div class="offcanvas-header">
-                              <h5 class="offcanvas-title" id="offcanvasFormLabel">Offcanvas with body scrolling</h5>
+                              <h3 class="offcanvas-title" id="offcanvasFormLabel">Inserisci il nuovo studente</h3>
                               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
                               
                                 <form>
 
-                                    <div class="row">
+                                    <div class="row row-gap-2 ">
                                         <!-- prima riga -->
                                         <div class="col-6">
                                             <label for="Name">Nome</label>
@@ -160,8 +160,11 @@
 
                                         <!-- seconda riga -->
                                         <div class="col-6">
-                                            <label for="Surname">Email</label>
-                                            <input type="email" class="form-control" id="email">
+                                            <label for="email-1">Email</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="email" class="form-control" id="email-1" aria-describedby="basic-addon1">
+                                            </div>
                                         </div>
                                         <div class="col-6">
                                             <label for="Name">Password</label>
@@ -170,8 +173,11 @@
 
                                         <!-- terza riga -->
                                         <div class="col-6">
-                                            <label for="Surname">Email</label>
-                                            <input type="email" class="form-control" id="email">
+                                            <label for="email-1">Email</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="email" class="form-control" id="email-1" aria-describedby="basic-addon1">
+                                            </div>
                                         </div>
                                         <div class="col-6">
                                             <label for="Name">Password</label>
@@ -180,28 +186,45 @@
 
                                         <!-- quarta riga -->
                                         <div class="col-12">
-                                            <label for="Name">Indirizzo</label>
-                                            <input type="text" class="form-control" id="Name">
+                                            <label for="address">Indirizzo</label>
+                                            <input type="text" class="form-control" id="address">
                                         </div>
 
                                         <!-- quinta riga -->
                                         <div class="col-6">
-                                            <label for="Name">Indirizzo</label>
-                                            <input type="text" class="form-control" id="Name">
+                                            <label for="city">Città</label>
+                                            <input type="text" class="form-control" id="city">
                                         </div>
                                         <div class="col-4">
-                                            <label for="Name">Indirizzo</label>
-                                            <input type="text" class="form-control" id="Name">
+                                            <label for="country">Stato</label>
+                                            <select class="form-select" id="country">
+                                                <option selected>Scegli...</option>
+                                                <option value="1">Italy</option>
+                                                <option value="2">Germany</option>
+                                                <option value="3">Kirghizistan</option>
+                                            </select>
                                         </div>
                                         <div class="col-2">
-                                            <label for="Name">Indirizzo</label>
-                                            <input type="text" class="form-control" id="Name">
+                                            <label for="cap">CAP</label>
+                                            <input type="number" class="form-control" id="cap">
                                         </div>
 
                                         <!-- sesta riga -->
-                                        <div class="col-6">
-                                            <label for="Name">Foto</label>
-                                            <input type="file" class="form-control" id="Name">
+                                        <div class="col-12">
+                                            <label for="img">Foto</label>
+                                            <input type="file" class="form-control" id="img">
+                                        </div>
+
+                                        
+                                        <div class="col-12">
+                                            <input type="checkbox" id="check">
+                                            <label for="check">Seleziona per proseguire</label>
+                                        </div>
+
+
+                                        <div class="col-12">
+                                            <button class="btn btn-primary ">Salva</button>
+                                            <button class="btn btn-warning">Svuota</button>
                                         </div>
                                         
                                     </div>
