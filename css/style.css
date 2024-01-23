@@ -71,6 +71,11 @@ header{
 }
 
 
+.my_affcanvas-w{
+    width: 60% !important;
+}
+
+
 .my_status{
     padding:4px 4px;
 
@@ -156,6 +161,11 @@ header{
 
 .my_w_breadcrum{
     width: auto;
+}
+
+
+.my_affcanvas-w{
+    width: 100% !important;
 }
 
 }

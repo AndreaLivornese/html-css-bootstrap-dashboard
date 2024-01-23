@@ -99,7 +99,7 @@
                                         <ol class="breadcrumb">
 
                                             <li class="breadcrumb-item d-lg-none">
-                                                <a class="text-decoration-none text-white" href="#">*</a>
+                                                <a class="text-decoration-none text-white my_breadcrum_cover" href="#">*</a>
                                             </li>
                                             
                                             <li class="breadcrumb-item d-none my_lg_d-list_item">
@@ -132,9 +132,86 @@
                         <label for="">
                             Nuovo Studente
                         </label>
-                        <button class="btn btn-outline-light">
+                        <button class="btn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasForm" aria-controls="offcanvasForm">
                             <i class="fa-solid fa-plus"></i>
                         </button>
+
+
+                        <!-- offcanvas -->
+                        <div class="offcanvas offcanvas-end my_affcanvas-w" tabindex="-1" id="offcanvasForm" aria-labelledby="offcanvasFormLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasFormLabel">Offcanvas with body scrolling</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              
+                                <form>
+
+                                    <div class="row">
+                                        <!-- prima riga -->
+                                        <div class="col-6">
+                                            <label for="Name">Nome</label>
+                                            <input type="text" class="form-control" id="Name">
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="Surname">Cognome</label>
+                                            <input type="text" class="form-control" id="Surname">
+                                        </div>
+
+                                        <!-- seconda riga -->
+                                        <div class="col-6">
+                                            <label for="Surname">Email</label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="Name">Password</label>
+                                            <input type="password" class="form-control" id="Name">
+                                        </div>
+
+                                        <!-- terza riga -->
+                                        <div class="col-6">
+                                            <label for="Surname">Email</label>
+                                            <input type="email" class="form-control" id="email">
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="Name">Password</label>
+                                            <input type="password" class="form-control" id="Name">
+                                        </div>
+
+                                        <!-- quarta riga -->
+                                        <div class="col-12">
+                                            <label for="Name">Indirizzo</label>
+                                            <input type="text" class="form-control" id="Name">
+                                        </div>
+
+                                        <!-- quinta riga -->
+                                        <div class="col-6">
+                                            <label for="Name">Indirizzo</label>
+                                            <input type="text" class="form-control" id="Name">
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="Name">Indirizzo</label>
+                                            <input type="text" class="form-control" id="Name">
+                                        </div>
+                                        <div class="col-2">
+                                            <label for="Name">Indirizzo</label>
+                                            <input type="text" class="form-control" id="Name">
+                                        </div>
+
+                                        <!-- sesta riga -->
+                                        <div class="col-6">
+                                            <label for="Name">Foto</label>
+                                            <input type="file" class="form-control" id="Name">
+                                        </div>
+                                        
+                                    </div>
+
+                                </form>
+
+                            </div>
+                          </div>
+
+
                     </div>
                 </div>
             </header>
