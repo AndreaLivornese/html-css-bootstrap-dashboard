@@ -106,6 +106,18 @@ header{
     background-color: #dc3545;
 }
 
+.icon-table{
+    padding:5px;
+    color:#6c757d;
+    border:1px #6c757d solid;
+}
+
+
+tbody tr td:last-child{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .my_md_d-tc{
 }
 
