@@ -101,6 +101,9 @@ header{
     background-color: #dc3545;
 }
 
+.my_md_d-tc{
+}
+
 
 .my_border_checkbox{
     border: 1px solid rgba(0, 0, 0, .2);
@@ -132,13 +135,23 @@ header{
 /* media query */
 
 
-
+/* >= laptop */
 @media screen and (min-width:992px) {
     .my_lg_d-list_item{
         display: list-item !important;
     }
 }
 
+
+
+@media screen and (min-width:768px) {
+    
+    .my_md_d-tc{
+        display: table-cell !important;
+    }
+
+
+}
 
 
 /* tablet */
