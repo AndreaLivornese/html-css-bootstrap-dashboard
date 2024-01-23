@@ -26,7 +26,12 @@
                     <img src="./img/mobile-logo.png" class="d-lg-none" id="small-logo" alt="">
                 </a>
                 <form class="d-flex col px-2" role="search">
-                    <input id="search" class="form-control me-2" type="search" placeholder="Prova a cercare: lezione di Laravel" aria-label="Search">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <input id="search" class="form-control me-2" type="search" placeholder="Prova a cercare: lezione di Laravel" aria-label="Search" aria-describedby="basic-addon1">
+                    </div>
                 </form>
                 <div class="col-1 d-flex gap-3 ">
                     <i class="fa-solid d-none d-lg-inline fa-list-ul"></i>
@@ -206,10 +211,10 @@
 
                                         <!-- terza riga -->
                                         <div class="col-lg-6 col-12">
-                                            <label for="email-1">Email</label>
+                                            <label for="email-2">Email</label>
                                             <div class="input-group">
                                                 <span class="input-group-text" id="basic-addon1">@</span>
-                                                <input type="email" class="form-control" id="email-1" aria-describedby="basic-addon1">
+                                                <input type="email" class="form-control" id="email-2" aria-describedby="basic-addon1">
                                             </div>
                                         </div>
                                         <div class="col-lg-6 col-12">
@@ -248,13 +253,13 @@
                                             <input type="file" class="form-control" id="img">
                                         </div>
 
-                                        
+                                        <!-- settima riga -->
                                         <div class="col-12">
                                             <input type="checkbox" id="check">
                                             <label for="check">Seleziona per proseguire</label>
                                         </div>
 
-
+                                        <!-- ottava riga -->
                                         <div class="col-12">
                                             <button class="btn btn-primary ">Salva</button>
                                             <button class="btn btn-warning">Svuota</button>
