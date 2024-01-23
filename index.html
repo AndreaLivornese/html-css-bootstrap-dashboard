@@ -37,75 +37,76 @@
                     <i class="fa-solid d-none d-lg-inline fa-list-ul"></i>
                     <i class="fa-solid d-none d-lg-inline fa-circle-question"></i>
                     <i class="fa-solid d-none d-lg-inline fa-ellipsis-vertical"></i>
-                    <i class="fa-solid text-warning fa-bell"></i>
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid text-warning fa-bell"></i>
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-end ">
+                            <li><a class="dropdown-item" href="#">Profilo</a></li>
+                            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                          </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     
         <!-- aside -->
+
     
         <aside class="py-3 px-2 text-white ">
-    
-            <div class="row g-0 align-content-between justify-content-center  h-100  ">
 
+            <div class="d-flex g-0 flex-column justify-content-between h-100">
 
-                <!-- top side della aside -->
-                <div class="col-12 row flex-column">
+                <div class="col-12 row flex-column g-0">
 
-                    <div class="col-12 row aside-tools py-2">
-
-                        <div class="col-1 d-flex justify-content-center align-items-center">
-                            <i class="fa-solid fa-house"></i>
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="col-8 d-flex aside-tools py-1">
+                            <div class=" col-6 col-lg-4 text-center">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <div class="col-lg-8 d-none d-lg-block">
+                                <a href="#">Home</a>
+                            </div>
                         </div>
-                        <div class="col-8 d-none d-lg-block">
-                            <a class="text-decoration-none text-white" href="#">Home</a>
-                        </div>
-
                     </div>
-
-                    <div class="col-12 row aside-tools py-2">
-
-                        <div class="col-1 d-flex justify-content-center align-items-center">
-                            <i class="fa-solid fa-chart-simple"></i>
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="col-8 d-flex aside-tools py-1">
+                            <div class="col-6 col-lg-4 text-center">
+                                <i class="fa-solid fa-chart-simple"></i>
+                            </div>
+                            <div class="col-lg-8 d-none d-lg-block">
+                                <a href="#">Stats</a>
+                            </div>
                         </div>
-                        <div class="col-8 d-none d-lg-block">
-                            <a class="text-decoration-none text-white" href="#">Stats</a>
-                        </div>
-
                     </div>
-
-                    <div class="col-12 row aside-tools py-2">
-
-                        <div class="col-1 d-flex justify-content-center align-items-center">
-                            <i class="fa-solid fa-signal"></i>
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="col-8 d-flex aside-tools py-1">
+                            <div class="col-6 col-lg-4 text-center">
+                                <i class="fa-solid fa-signal"></i>
+                            </div>
+                            <div class="col-lg-8 d-none d-lg-block">
+                                <a href="#">Signals</a>
+                            </div>
                         </div>
-                        <div class="col-8 d-none d-lg-block">
-                            <a class="text-decoration-none text-white" href="#">Signal</a>
-                        </div>
-
                     </div>
 
                 </div>
-
-
-                <!-- bottom side -->
-                <div class="col-12 row">
-
-                    <div class="col-12 row aside-tools py-2">
-
-                        <div class="col-1 d-flex justify-content-center align-items-center">
-                            <i class="fa-solid fa-gear"></i>
+                <div class="col-12">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="col-8 d-flex aside-tools py-1">
+                            <div class="col-6 col-lg-4 text-center">
+                                <i class="fa-solid fa-gear"></i>
+                            </div>
+                            <div class="col-lg-8 d-none d-lg-block">
+                                <a href="#">Admin</a>
+                            </div>
                         </div>
-                        <div class="col-8 d-none d-lg-block">
-                            <a class="text-decoration-none text-white" href="#">Admin</a>
-                        </div>
-
                     </div>
-
                 </div>
 
             </div>
-    
+
         </aside>
     
         <!-- main -->

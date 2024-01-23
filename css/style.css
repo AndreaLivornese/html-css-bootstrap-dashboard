@@ -29,6 +29,10 @@ aside{
     background-image: url("../img/sidebar-bg.png");
 }
 
+aside a{
+    color:white;
+    text-decoration: none;
+}
 
 .aside-tools:hover{
     background-color: rgba(255, 255, 255, .3);
