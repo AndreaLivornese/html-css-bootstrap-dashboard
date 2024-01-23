@@ -11,9 +11,13 @@ nav{
     max-height: auto;
 }
 
+#icon-dropdown{
+    --webkit-appearance: none; 
+}
 
-
-
+.dropdown-toogle::after{
+    content: "";
+}
 /* fine nav bar */
 
 
